@@ -139,13 +139,6 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/safety"
-                  className="text-gray-300 hover:text-white transition-colors text-sm flex items-center group"
-                >
-                  <ArrowRight className="h-3 w-3 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  Safety Tips
-                </Link>
               </li>
               <li>
                 <Link
@@ -184,7 +177,7 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-rose-500 flex-shrink-0" />
                 <div className="text-sm text-gray-300">
-                  <p className="font-medium">+91 98765 43210</p>
+                  <p className="font-medium">+91-8160856133</p>
                   <p className="text-xs text-gray-400">24/7 Support</p>
                 </div>
               </div>
