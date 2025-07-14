@@ -49,7 +49,7 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: "Phone Support",
-      details: ["+91-8160856133", "+91 87654 32109"],
+      details: ["+91-8160856133"],
       description: "Available 24/7 for urgent queries",
     },
     {
