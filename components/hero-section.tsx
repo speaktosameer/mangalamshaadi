@@ -164,12 +164,19 @@ export default function HeroSection() {
                     <SelectValue placeholder="Select Religion" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="hindu">Hindu</SelectItem>
-                    <SelectItem value="muslim">Muslim</SelectItem>
-                    <SelectItem value="christian">Christian</SelectItem>
-                    <SelectItem value="sikh">Sikh</SelectItem>
-                    <SelectItem value="buddhist">Buddhist</SelectItem>
-                    <SelectItem value="jain">Jain</SelectItem>
+<SelectItem value="hindu">Hindu</SelectItem>
+<SelectItem value="muslim">Muslim</SelectItem>
+<SelectItem value="christian">Christian</SelectItem>
+<SelectItem value="sikh">Sikh</SelectItem>
+<SelectItem value="buddhist">Buddhist</SelectItem>
+<SelectItem value="jain">Jain</SelectItem>
+<SelectItem value="parsi">Parsi</SelectItem>
+<SelectItem value="jewish">Jewish</SelectItem>
+<SelectItem value="bahai">Bahá'í</SelectItem>
+<SelectItem value="tribal">Tribal</SelectItem>
+<SelectItem value="no_religion">No Religion</SelectItem>
+<SelectItem value="other">Other</SelectItem>
+
                   </SelectContent>
                 </Select>
               </div>

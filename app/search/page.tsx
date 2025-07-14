@@ -287,12 +287,19 @@ export default function SearchPage() {
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="Any">Any</SelectItem>
-                        <SelectItem value="Hindu">Hindu</SelectItem>
-                        <SelectItem value="Muslim">Muslim</SelectItem>
-                        <SelectItem value="Christian">Christian</SelectItem>
-                        <SelectItem value="Sikh">Sikh</SelectItem>
-                        <SelectItem value="Buddhist">Buddhist</SelectItem>
-                        <SelectItem value="Jain">Jain</SelectItem>
+<SelectItem value="Hindu">Hindu</SelectItem>
+<SelectItem value="Muslim">Muslim</SelectItem>
+<SelectItem value="Christian">Christian</SelectItem>
+<SelectItem value="Sikh">Sikh</SelectItem>
+<SelectItem value="Buddhist">Buddhist</SelectItem>
+<SelectItem value="Jain">Jain</SelectItem>
+<SelectItem value="Parsi">Parsi</SelectItem>
+<SelectItem value="Jewish">Jewish</SelectItem>
+<SelectItem value="Bahá'í">Bahá'í</SelectItem>
+<SelectItem value="Tribal">Tribal</SelectItem>
+<SelectItem value="Other">Other</SelectItem>
+<SelectItem value="No Religion">No Religion</SelectItem>
+
                       </SelectContent>
                     </Select>
                   </div>
@@ -306,12 +313,106 @@ export default function SearchPage() {
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="Any">Any</SelectItem>
-                        <SelectItem value="Mumbai">Mumbai</SelectItem>
-                        <SelectItem value="Delhi">Delhi</SelectItem>
-                        <SelectItem value="Bangalore">Bangalore</SelectItem>
-                        <SelectItem value="Chennai">Chennai</SelectItem>
-                        <SelectItem value="Pune">Pune</SelectItem>
-                        <SelectItem value="Hyderabad">Hyderabad</SelectItem>
+<SelectItem value="Mumbai">Mumbai</SelectItem>
+<SelectItem value="Delhi">Delhi</SelectItem>
+<SelectItem value="Bangalore">Bangalore</SelectItem>
+<SelectItem value="Hyderabad">Hyderabad</SelectItem>
+<SelectItem value="Ahmedabad">Ahmedabad</SelectItem>
+<SelectItem value="Chennai">Chennai</SelectItem>
+<SelectItem value="Kolkata">Kolkata</SelectItem>
+<SelectItem value="Surat">Surat</SelectItem>
+<SelectItem value="Pune">Pune</SelectItem>
+<SelectItem value="Jaipur">Jaipur</SelectItem>
+<SelectItem value="Lucknow">Lucknow</SelectItem>
+<SelectItem value="Kanpur">Kanpur</SelectItem>
+<SelectItem value="Nagpur">Nagpur</SelectItem>
+<SelectItem value="Indore">Indore</SelectItem>
+<SelectItem value="Thane">Thane</SelectItem>
+<SelectItem value="Bhopal">Bhopal</SelectItem>
+<SelectItem value="Visakhapatnam">Visakhapatnam</SelectItem>
+<SelectItem value="Patna">Patna</SelectItem>
+<SelectItem value="Vadodara">Vadodara</SelectItem>
+<SelectItem value="Ghaziabad">Ghaziabad</SelectItem>
+<SelectItem value="Ludhiana">Ludhiana</SelectItem>
+<SelectItem value="Agra">Agra</SelectItem>
+<SelectItem value="Nashik">Nashik</SelectItem>
+<SelectItem value="Faridabad">Faridabad</SelectItem>
+<SelectItem value="Meerut">Meerut</SelectItem>
+<SelectItem value="Rajkot">Rajkot</SelectItem>
+<SelectItem value="Kalyan-Dombivli">Kalyan-Dombivli</SelectItem>
+<SelectItem value="Vasai-Virar">Vasai-Virar</SelectItem>
+<SelectItem value="Varanasi">Varanasi</SelectItem>
+<SelectItem value="Srinagar">Srinagar</SelectItem>
+<SelectItem value="Aurangabad">Aurangabad</SelectItem>
+<SelectItem value="Dhanbad">Dhanbad</SelectItem>
+<SelectItem value="Amritsar">Amritsar</SelectItem>
+<SelectItem value="Navi Mumbai">Navi Mumbai</SelectItem>
+<SelectItem value="Allahabad">Allahabad</SelectItem>
+<SelectItem value="Ranchi">Ranchi</SelectItem>
+<SelectItem value="Howrah">Howrah</SelectItem>
+<SelectItem value="Coimbatore">Coimbatore</SelectItem>
+<SelectItem value="Jabalpur">Jabalpur</SelectItem>
+<SelectItem value="Gwalior">Gwalior</SelectItem>
+<SelectItem value="Vijayawada">Vijayawada</SelectItem>
+<SelectItem value="Jodhpur">Jodhpur</SelectItem>
+<SelectItem value="Madurai">Madurai</SelectItem>
+<SelectItem value="Raipur">Raipur</SelectItem>
+<SelectItem value="Kota">Kota</SelectItem>
+<SelectItem value="Guwahati">Guwahati</SelectItem>
+<SelectItem value="Chandigarh">Chandigarh</SelectItem>
+<SelectItem value="Solapur">Solapur</SelectItem>
+<SelectItem value="Hubli–Dharwad">Hubli–Dharwad</SelectItem>
+<SelectItem value="Mysore">Mysore</SelectItem>
+<SelectItem value="Tiruchirappalli">Tiruchirappalli</SelectItem>
+<SelectItem value="Bareilly">Bareilly</SelectItem>
+<SelectItem value="Aligarh">Aligarh</SelectItem>
+<SelectItem value="Tiruppur">Tiruppur</SelectItem>
+<SelectItem value="Moradabad">Moradabad</SelectItem>
+<SelectItem value="Jalandhar">Jalandhar</SelectItem>
+<SelectItem value="Bhubaneswar">Bhubaneswar</SelectItem>
+<SelectItem value="Salem">Salem</SelectItem>
+<SelectItem value="Warangal">Warangal</SelectItem>
+<SelectItem value="Guntur">Guntur</SelectItem>
+<SelectItem value="Bhiwandi">Bhiwandi</SelectItem>
+<SelectItem value="Saharanpur">Saharanpur</SelectItem>
+<SelectItem value="Gorakhpur">Gorakhpur</SelectItem>
+<SelectItem value="Bikaner">Bikaner</SelectItem>
+<SelectItem value="Amravati">Amravati</SelectItem>
+<SelectItem value="Noida">Noida</SelectItem>
+<SelectItem value="Jamshedpur">Jamshedpur</SelectItem>
+<SelectItem value="Bhilai">Bhilai</SelectItem>
+<SelectItem value="Cuttack">Cuttack</SelectItem>
+<SelectItem value="Firozabad">Firozabad</SelectItem>
+<SelectItem value="Kochi">Kochi</SelectItem>
+<SelectItem value="Nellore">Nellore</SelectItem>
+<SelectItem value="Bhavnagar">Bhavnagar</SelectItem>
+<SelectItem value="Dehradun">Dehradun</SelectItem>
+<SelectItem value="Durgapur">Durgapur</SelectItem>
+<SelectItem value="Asansol">Asansol</SelectItem>
+<SelectItem value="Rourkela">Rourkela</SelectItem>
+<SelectItem value="Nanded">Nanded</SelectItem>
+<SelectItem value="Kolhapur">Kolhapur</SelectItem>
+<SelectItem value="Ajmer">Ajmer</SelectItem>
+<SelectItem value="Akola">Akola</SelectItem>
+<SelectItem value="Gulbarga">Gulbarga</SelectItem>
+<SelectItem value="Jamnagar">Jamnagar</SelectItem>
+<SelectItem value="Ujjain">Ujjain</SelectItem>
+<SelectItem value="Loni">Loni</SelectItem>
+<SelectItem value="Siliguri">Siliguri</SelectItem>
+<SelectItem value="Jhansi">Jhansi</SelectItem>
+<SelectItem value="Ulhasnagar">Ulhasnagar</SelectItem>
+<SelectItem value="Jammu">Jammu</SelectItem>
+<SelectItem value="Mangalore">Mangalore</SelectItem>
+<SelectItem value="Erode">Erode</SelectItem>
+<SelectItem value="Belgaum">Belgaum</SelectItem>
+<SelectItem value="Kurnool">Kurnool</SelectItem>
+<SelectItem value="Malegaon">Malegaon</SelectItem>
+<SelectItem value="Gaya">Gaya</SelectItem>
+<SelectItem value="Udaipur">Udaipur</SelectItem>
+<SelectItem value="Maheshtala">Maheshtala</SelectItem>
+<SelectItem value="Davanagere">Davanagere</SelectItem>
+<SelectItem value="Kozhikode">Kozhikode</SelectItem>
+
                       </SelectContent>
                     </Select>
                   </div>
@@ -325,10 +426,23 @@ export default function SearchPage() {
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="Any">Any</SelectItem>
-                        <SelectItem value="Graduate">Graduate</SelectItem>
-                        <SelectItem value="Post Graduate">Post Graduate</SelectItem>
-                        <SelectItem value="Doctorate">Doctorate</SelectItem>
-                        <SelectItem value="Diploma">Diploma</SelectItem>
+<SelectItem value="Illiterate">Illiterate</SelectItem>
+<SelectItem value="Literate without Formal Education">Literate without Formal Education</SelectItem>
+<SelectItem value="Below 10th">Below 10th</SelectItem>
+<SelectItem value="10th Pass">10th Pass</SelectItem>
+<SelectItem value="12th Pass">12th Pass</SelectItem>
+<SelectItem value="Diploma">Diploma</SelectItem>
+<SelectItem value="Graduate">Graduate</SelectItem>
+<SelectItem value="Post Graduate">Post Graduate</SelectItem>
+<SelectItem value="Doctorate">Doctorate</SelectItem>
+<SelectItem value="Professional Degree (CA, CS, etc.)">Professional Degree (CA, CS, etc.)</SelectItem>
+<SelectItem value="Engineering/Technology">Engineering/Technology</SelectItem>
+<SelectItem value="Management/MBA">Management/MBA</SelectItem>
+<SelectItem value="Medical/MBBS">Medical/MBBS</SelectItem>
+<SelectItem value="Law/LLB">Law/LLB</SelectItem>
+<SelectItem value="Pharmacy">Pharmacy</SelectItem>
+<SelectItem value="Others">Others</SelectItem>
+
                       </SelectContent>
                     </Select>
                   </div>
@@ -342,11 +456,43 @@ export default function SearchPage() {
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="Any">Any</SelectItem>
-                        <SelectItem value="Software">Software Engineer</SelectItem>
-                        <SelectItem value="Doctor">Doctor</SelectItem>
-                        <SelectItem value="Teacher">Teacher</SelectItem>
-                        <SelectItem value="Business">Business</SelectItem>
-                        <SelectItem value="Government">Government Job</SelectItem>
+<SelectItem value="Software">Software Engineer</SelectItem>
+<SelectItem value="Doctor">Doctor</SelectItem>
+<SelectItem value="Teacher">Teacher</SelectItem>
+<SelectItem value="Business">Business</SelectItem>
+<SelectItem value="Government">Government Job</SelectItem>
+<SelectItem value="Engineer">Engineer</SelectItem>
+<SelectItem value="Lawyer">Lawyer</SelectItem>
+<SelectItem value="CA">Chartered Accountant</SelectItem>
+<SelectItem value="Architect">Architect</SelectItem>
+<SelectItem value="Pharmacist">Pharmacist</SelectItem>
+<SelectItem value="Pilot">Pilot</SelectItem>
+<SelectItem value="Police">Police Officer</SelectItem>
+<SelectItem value="Army">Army Personnel</SelectItem>
+<SelectItem value="Banker">Banker</SelectItem>
+<SelectItem value="Journalist">Journalist</SelectItem>
+<SelectItem value="Nurse">Nurse</SelectItem>
+<SelectItem value="Artist">Artist</SelectItem>
+<SelectItem value="Actor">Actor/Performer</SelectItem>
+<SelectItem value="Writer">Writer/Author</SelectItem>
+<SelectItem value="Chef">Chef</SelectItem>
+<SelectItem value="Scientist">Scientist</SelectItem>
+<SelectItem value="Lecturer">Lecturer</SelectItem>
+<SelectItem value="Civil Services">Civil Services</SelectItem>
+<SelectItem value="Clerical">Clerical Staff</SelectItem>
+<SelectItem value="Driver">Driver</SelectItem>
+<SelectItem value="Mechanic">Mechanic</SelectItem>
+<SelectItem value="Electrician">Electrician</SelectItem>
+<SelectItem value="Plumber">Plumber</SelectItem>
+<SelectItem value="Beautician">Beautician</SelectItem>
+<SelectItem value="Tailor">Tailor</SelectItem>
+<SelectItem value="Farmer">Farmer</SelectItem>
+<SelectItem value="Self Employed">Self Employed</SelectItem>
+<SelectItem value="Student">Student</SelectItem>
+<SelectItem value="Unemployed">Unemployed</SelectItem>
+<SelectItem value="Retired">Retired</SelectItem>
+<SelectItem value="Others">Others</SelectItem>
+
                       </SelectContent>
                     </Select>
                   </div>
