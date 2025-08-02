@@ -1,6 +1,7 @@
 "use client"
 
 import type React from "react"
+import { supabase } from "@/lib/supabaseClient"
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
@@ -34,20 +35,67 @@ export default function RegisterPage() {
     agreeToTerms: false,
   })
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsLoading(true)
-    try {
-      const success = await register(formData)
-      if (success) {
-        router.push("/profile/complete")
-      }
-    } catch (error) {
-      console.error("Registration failed:", error)
-    } finally {
-      setIsLoading(false)
+ const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsLoading(true);
+
+  try {
+    const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
+      email: formData.email,
+      password: formData.password,
+    });
+
+    console.log("✅ Registered user ID:", signUpData?.user?.id);
+
+    if (signUpError) {
+      console.error("Sign up failed:", signUpError.message);
+      return;
     }
+
+    const userId = signUpData.user?.id;
+
+    // Wait for user session
+    const { data: userData, error: userError } = await supabase.auth.getUser();
+
+    if (userError || !userData?.user) {
+      console.error("User not logged in or error:", userError?.message);
+      return;
+    }
+
+    const user = userData.user;
+
+    // ✅ Insert user profile
+    if (userId) {
+    const { error: insertError } = await supabase.from("profiles").insert([{
+      user_id: user.id,
+      name: formData.name,
+      profile_for: formData.profileFor,
+      phone: formData.phone,
+      gender: formData.gender,
+      dob: formData.dateOfBirth,
+      education: formData.education,
+      location: formData.location,
+      age: Number(formData.age),
+      city: formData.city,
+      email: formData.email,
+    }]);
+
+    if (insertError) {
+      console.error("Insert failed:", insertError.message);
+      return;
+    }
+
+    console.log("✅ Profile inserted successfully!");
+    router.push("/profile/complete");
+    }
+
+  } catch (error) {
+    console.error("Registration failed:", error);
+  } finally {
+    setIsLoading(false);
   }
+};
+
 
   const handleInputChange = (field: string, value: string | boolean) => {
     setFormData((prev) => ({ ...prev, [field]: value }))
